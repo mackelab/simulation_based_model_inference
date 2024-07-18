@@ -1,0 +1,43 @@
+# jupyter notebooks
+.ipynb_checkpoints
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS code
+.vscode/
+
+# sbi logs
+*sbi-logs
+
+# pickled files
+*.pickle
+*.pkl
+# exceptions:
+!single_sample_v10.0.pickle
+!ephys_cell_*
+
+# folder not to track:
+data/
+figures/
+grassmann_distribution/
+PyTorchDiscreteFlows/
+transformer/
+GrassmannBinaryDistribution/
+GrassmannBinaryDistribution.egg-info/
+
+
+# results
+multirun/
+results/
+outputs/
+
+# ignor figures
+*.pdf
+*.svg
+
+# Mac
+.DS_Store
+*.DS_Store
