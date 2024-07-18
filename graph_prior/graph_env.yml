@@ -1,9 +1,0 @@
-name: sbmi_graph_env
-dependencies:
-  - numpy
-  - pytorch
-  - sympy
-  - networkx
-  - ipykernel
-  - matplotlib
-  - seaborn
